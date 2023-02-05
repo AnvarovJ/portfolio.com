@@ -1,0 +1,329 @@
+@media screen and (max-width:2700px) {
+    /* .wrapper{
+        width: 90%;
+        margin: 0 auto;
+    } */
+    .highlights .imgBox{
+        height: 550px;
+    }
+    .Categories .types .imgBox{
+        height: 1000px;
+    }
+}   
+
+@media screen and (max-width:1800px){
+    /* .wrapper{
+        width: 90%;
+        margin: 0 auto;
+    } */
+    .shablon{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .highlights .imgBox{
+        height: 500px;
+    }
+    .Categories .types .imgBox{
+        height: 850px;
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    .navcategories{
+        width: 96%;
+        margin: 0 auto;
+    }
+    .a{
+        width: 100%;
+    }
+    .shablon{
+        background-position-x: center;
+    }
+    .shablon .left{
+        width: 58%;
+    }
+    .highlights{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 20px 10px;
+
+    }
+    .highlights .imgBox{
+        height: 600px;
+    }
+    .highlights .card{
+        width: 95%;
+    }
+    .Categories .types .imgBox{
+        height: 600px;
+    }
+    .shablon_2{
+        width: 97%;
+        margin: 0 auto;
+        background-position-x: right;
+        margin-bottom: 5%;
+    }
+    .shablon_2 .right{
+        width: 50%;
+        text-align: center;
+        margin: 0 0 0 47%;
+    }
+    .footer{
+        display: none;
+    }
+    .footer_tablet{
+        display: block;
+    }
+    .footer_tablet .icons{
+        width: 30%;
+    }
+    .footer_tablet .bottom{
+        margin-bottom: 3%;
+    }
+}
+
+
+
+@media screen and (max-width:992px) {
+    .navcategories{
+        display: none;
+    }
+    .search_panel i{
+        position: relative;
+        left: 9%;
+    }
+    .burger{
+        display: block;
+        font-size: 23px;
+    }
+    .shablon{
+        background: none;
+        width: 96%;
+        margin: 0 auto;
+        height: auto;
+        padding: 3% 0;
+        background-color: #929652;  
+    }
+    .shablon .left{
+        width: 100%;
+    }
+    .shablon .left h4, .shablon .left h2{
+        color: black;
+    }
+    
+    .highlights{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 20px 10px;
+
+    }
+    .highlights .card{
+        width: 95%;
+    }
+    .Categories .types .imgBox{
+        height: 500px;
+    }
+    .shablon_2{
+        background: none;
+        height: auto;
+    }
+    .shablon_2 .right{
+        width: 80%;
+        padding: 5% 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer{
+        display: none;
+    }
+    .footer_tablet{
+        display: block;
+    }
+    .footer_tablet .icons{
+        width: 35%;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    header .icons{
+        display: none;
+    }
+    .navcategories{
+        display: none;
+    }
+    .shablon{
+        display: none;
+    }
+    .search_panel{
+        width: 40%;
+    }
+    .search_panel input{
+        padding: 1% 2% 1% 12%;
+    }
+    .search_panel i{
+        position: relative;
+        left: 12%;
+    }
+    .burger{
+        display: inline-block;
+        
+        width: 10%;
+    }
+    .content_title{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .content_title button{
+        width: 50%;
+        font-size: 15px;
+        padding: 2% 0;
+    }
+    .highlights{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 20px 10px;
+
+    }
+    .highlights .card{
+        width: 95%;
+    }
+    .Categories{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+        grid-gap: 20px 0;
+    }
+    .Categories .card{
+        width: 100%;
+    }
+    .Categories .types .imgBox{
+        height: 750px;
+    }
+    .Categories img{
+        height: 100%;
+    }
+    .shablon_2{
+        background:none;
+        height: auto;
+    }
+    .shablon_2 .right{
+        width: 80%;
+        margin: 0 auto;
+        padding: 5% 0;
+        text-align: center;
+    }
+    .footer{
+        display: none;
+    }
+    .footer_tablet{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    header .icons{
+        display: none;
+    }
+    
+    .navcategories{
+        display: none;
+    }
+    .shablon{
+        display: none;
+    }
+    .search_panel{
+        width: 40%;
+    }
+    .search_panel input{
+        padding: 1% 2% 1% 12%;
+    }
+    .search_panel i{
+        position: relative;
+        left: 14%;
+    }
+    .burger{
+        display: inline-block;
+        
+        width: 10%;
+    }
+    .content_title{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .content_title button{
+        width: 50%;
+        font-size: 15px;
+        padding: 2% 0;
+    }
+    .highlights{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 20px 10px;
+
+    }
+    .highlights .imgBox{
+        height: 400px;
+    }
+    .highlights .card{
+        width: 95%;
+    }
+    .Categories{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+        grid-gap: 20px 0;
+    }
+    .Categories .card{
+        width: 100%;
+    }
+    .Categories .types .imgBox{
+        height: 620px;
+    }
+    .Categories img{
+        height: 100%;
+    }
+    .shablon_2{
+        background:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .shablon_2 .right{
+        width: 80%;
+        margin: 0 auto;
+        padding: 5% 0;
+        text-align: center;
+    }
+    .footer{
+        display: none;
+    }
+    .footer_tablet{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:399px){
+    .Categories .types .imgBox{
+        height: 400px;
+    }
+    .Categories img{
+        height: 100%;
+    }
+    .highlights .card .imgBox{
+        height: 270px;
+    }
+    .highlights .card .imgBox img{
+        height: 100%;
+    }
+}

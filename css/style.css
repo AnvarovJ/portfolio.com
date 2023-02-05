@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Monserat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(241, 241, 241); 
+}
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+/*==============================HEADER==============================*/
+
+.burger{
+    display: none;
+}
+.navbar{
+    display: flex;
+    padding: 2% 1.5%;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h3{
+    font-size: 30px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: space-between;
+}
+.icons .fa-bag-shopping{
+    font-size: 23px;
+    color: #81835B;
+}
+.search_panel{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.search_panel i{
+    position: relative;
+    left: 7%;
+    
+    color: #81835B;
+}
+.search_panel input{
+    width: 76%;
+    font-size: 16px;
+    padding: 1% 2% 1% 8%;
+    outline: none;
+    border: 3px solid #81835B;
+    border-radius: 40px;
+}
+
+.sign_in p, .bargein{
+    font-size: 18px;
+}
+.navcategories{
+    padding: 0 2% 2% 2%;
+}
+.a{
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.a a{
+    color: black;
+    font-size: 18px;
+    letter-spacing: .01em;
+    transition: 0.3s;
+}
+.a a:hover{
+    text-decoration: underline;
+}
+/*======================CONTENT=======================*/
+
+.shablon{
+    width: 97%;
+    margin: 0 auto;
+    height: 600px;
+    background: url("../logo/logo.avif");
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px rgb(216, 216, 216);
+}
+.shablon .left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shablon .left h4, .shablon .left h2{
+    color: white;
+    letter-spacing: 0.05em;
+    font-family: 'Merriweather', sans-serif;
+}
+.shablon .left h4{
+    margin-bottom: 2%;
+    font-size: 15px;
+}
+.shablon .left h2{
+    margin-bottom: 2%;
+    font-size: 65px;
+}
+.shablon button{
+    width: 40%;
+    padding: 3% 0;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.content_title{
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.05em;
+    font-family: 'Merriweather', sans-serif;
+}
+.content_title #content_title_p1{
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+.content_title #content_title_p2{
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+.content_title button{
+    width: 20%;
+    padding: 1% 0;
+    color: white;
+    background-color: #000;
+    font-size: 17px;
+}
+
+.Featured_Highlights, .Featured_Categories{
+    width: 97%;
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+    margin-bottom: 5%;
+}
+.highlights, .Categories{
+    display: flex;
+    justify-content: space-between;
+}
+.Featured_Highlights h3, .Featured_Categories h3{
+    margin-bottom: 3%;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 20px;
+}
+.card{
+    width: 24%;
+}
+.card .imgBox{
+    width: 100%;
+    height: 400px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+.card .imgBox{
+    width: 100%;
+    height: 400px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+.card:hover img{
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+.card:hover i{
+    cursor: pointer;
+    transform: translateX(120%);
+}
+.Description{
+    font-weight: 600;
+    margin-top: 3%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.Description i{
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    transition: 0.4s;
+}
+.types{
+    width: 49%;
+}
+.types .imgBox{
+    width: 100%;
+    height: 680px;
+}
+.types img{
+    width: 100%;
+    height: 100%;
+}
+.types .Description{
+    width: 90%;
+}
+
+.shablon_2{
+    background: url('../logo/shablon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 97%;
+    margin: 0 auto;
+    height: 620px;
+    cursor: pointer;
+    margin-bottom: 5%;
+    box-shadow: 0px 0px 10px 1px rgb(216, 216, 216);
+}
+.shablon_2 .right{
+    padding-top: 20%;
+    margin-left: 60%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shablon_2 .right p, .right h4{
+    letter-spacing: 0.05em;
+    font-family: 'Merriweather', sans-serif;
+}
+.shablon_2 .right p{
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+.shablon_2 .right button{
+    color: white;
+    background-color: #000;
+    width: 50%;
+    padding: 3% 0;
+    font-size: 18px;
+    margin-top: 2%;
+}
+
+
+/*=======================FOOTER===============================*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 4%;
+}
+.footer p{
+    letter-spacing: 0.01em;
+    font-family: 'Merriweather', sans-serif;
+}
+.footer .left{
+    width: 46%;
+}
+.footer .right{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.footer .right_left p{
+    letter-spacing: 0;
+    margin-bottom: 7%;
+    font-size: 15px;
+}
+.right_right p{
+    margin-bottom: 8.8%;
+}
+.first_order p{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+.sign_up{
+    color: rgb(58, 57, 57);
+    margin-bottom: 5%;
+}
+.buttons{
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+.buttons input{
+    width: 50%;
+    padding: 0 2%;
+    height: 50px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #4C4C4C;
+}
+.buttons .b1{
+    height: 52px;
+    padding: 0 2%;
+    background-color: #4C4C4C;
+    font-size: 30px;
+    color: white;
+    border-radius: 0;
+}
+.privacy{
+    color: rgb(58, 57, 57);
+    margin-bottom: 5%;
+}
+.footer .icons{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .icons i{
+    font-size: 25px;
+    color: #575555;
+    cursor: pointer;
+}
+.footer .icons i:hover{
+    color: #000;
+}
+.b1{
+    transition: 0.3s;
+}
+.b1:hover{
+    background-color: #333333;
+}
+
+
+
+.footer_tablet{
+    display: none;
+}
+.footer_tablet .icons{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_tablet .top{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.footer_tablet .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_tablet .top i{
+    font-size: 20px;
+    color: #4C4C4C;
+}
+.footer_tablet .bottom p{
+    margin-bottom: 10px;
+}
